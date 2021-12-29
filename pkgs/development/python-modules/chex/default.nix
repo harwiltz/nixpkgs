@@ -1,7 +1,6 @@
 { lib
 , buildPythonPackage
 , fetchFromGitHub
-, numpy
 , absl-py
 , toolz
 , dm-tree
