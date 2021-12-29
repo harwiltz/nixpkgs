@@ -28,7 +28,7 @@ buildPythonPackage rec {
   pythonImportsCheck = [ "jmp" ];
 
   meta = with lib; {
-    description = "JMP is a Mixed Precision library for JAX.";
+    description = "Mixed Precision library for JAX";
     homepage = "https://github.com/deepmind/jmp";
     license = licenses.asl20;
     maintainers = with maintainers; [ harwiltz ];
