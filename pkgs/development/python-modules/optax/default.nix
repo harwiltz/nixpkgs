@@ -34,7 +34,7 @@ buildPythonPackage rec {
   pythonImportsCheck = [ "optax" ];
 
   meta = with lib; {
-    description = "Optax is a gradient processing and optimization library for JAX.";
+    description = "Gradient processing and optimization library for JAX";
     homepage = "https://optax.readthedocs.io";
     license = licenses.asl20;
     maintainers = with maintainers; [ harwiltz ];
