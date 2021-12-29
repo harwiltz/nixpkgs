@@ -2,7 +2,6 @@
 , buildPythonPackage
 , fetchFromGitHub
 , tabulate
-, cloudpickle
 , absl-py
 , jmp
 , optax
