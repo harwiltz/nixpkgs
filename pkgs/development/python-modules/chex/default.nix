@@ -12,6 +12,8 @@
 buildPythonPackage rec {
   pname = "chex";
   version = "0.1.0";
+  
+  disabled = pythonOlder "3.7";
 
   src = fetchFromGitHub {
     owner = "deepmind";
