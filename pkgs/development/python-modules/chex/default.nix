@@ -31,7 +31,7 @@ buildPythonPackage rec {
   pythonImportsCheck = [ "chex" ];
 
   meta = with lib; {
-    description = "Chex is a library of utilities for helping to write JAX code.";
+    description = "Python library for helping to write JAX code";
     homepage = "https://chex.readthedocs.io";
     license = licenses.asl20;
     maintainers = with maintainers; [ harwiltz ];
