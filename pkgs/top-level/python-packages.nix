@@ -2939,6 +2939,8 @@ in {
     inherit (pkgs) flatbuffers;
   };
 
+  flax = callPackage ../development/python-modules/flax { };
+
   flexmock = callPackage ../development/python-modules/flexmock { };
 
   flickrapi = callPackage ../development/python-modules/flickrapi { };
@@ -5637,6 +5639,8 @@ in {
   ospd = callPackage ../development/python-modules/ospd { };
 
   osqp = callPackage ../development/python-modules/osqp { };
+
+  ott = callPackage ../development/python-modules/ott { };
 
   outcome = callPackage ../development/python-modules/outcome { };
 
